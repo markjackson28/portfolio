@@ -1,8 +1,10 @@
-import LogoTitle from '../../assets/images/logo-s.png'
+// import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logo-m2.png'
 import { Link } from 'react-router-dom';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+// import Logo from './Logo';
 
 
 const Home = () => {
@@ -61,6 +63,7 @@ const Home = () => {
         <h2>Full-Stack / JavaScript / Veteran</h2>
         <Link to="/contact" className="flat-button">CONTACT ME</Link>
       </div>
+      {/* <Logo /> */}
     </div>
   )
 };
