@@ -70,6 +70,11 @@
     float: right;
     text-align: center;
     margin-right: 10px;
+
+    &:hover {
+      animation: rubberBand 1s;
+      color: #ffd700;
+    }
   }
 }
 
@@ -77,7 +82,7 @@
   background: rgba(8, 253, 216, 0.1);
   float: right;
   width: 53%;
-  height: 115%;
+  height: 100%;
   margin-top: -3%;
 }
 
@@ -108,9 +113,8 @@
 
   span {
     font-size: 16px;
-
-    span {
-      color: #ffd700;
+    display: block;
+    padding-top: 0px;
+    color: #ffd700;
     }
-  }
 }
